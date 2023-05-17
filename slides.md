@@ -42,6 +42,43 @@ Read more about [Why Slidev?](https://sli.dev/guide/why)
 </BarBottom>
 
 ---
+
+# 目录
+
+<Toc></Toc>
+
+<BarBottom  title="CW-FED">
+  <Item text="github.com/steinwei">
+    <carbon:logo-github />
+  </Item>
+  <Item text="SteinWei">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="personal-site-steinw.com">
+    <carbon:link />
+  </Item>
+</BarBottom>
+
+---
+
+# 工作回顾
+
+- 1213
+- 13131
+
+<BarBottom  title="CW-FED">
+  <Item text="github.com/steinwei">
+    <carbon:logo-github />
+  </Item>
+  <Item text="SteinWei">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="personal-site-steinw.com">
+    <carbon:link />
+  </Item>
+</BarBottom>
+
+---
 layout: intro
 ---
 
