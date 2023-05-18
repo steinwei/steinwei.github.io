@@ -1,26 +1,33 @@
 ---
+# replace "./" with "purplin"
+# when you copy this example.md file over
+# to your own slidev environment and install
+# purplin as a module
 theme: purplin
-title: 韦世杰转正答辩
 ---
 
 # 韦世杰转正答辩
 
 刺猬前端工作流构建
 
-<!--
-123123
--->
-
----
-layout: intro
 ---
 
 # 个人介绍
 
 哈喽，我叫韦世杰，花名斯坦，一位WEB前端开发工程师。主力使用JavaScript，Typescript和Nodejs来编码，业余使用Golang。
+  
+- 📝 **Text-based** - focus on the content with Markdown, and then style them later
+- 🎨 **Themable** - theme can be shared and used with npm packages
+- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+- 🤹 **Interactive** - embedding Vue components to enhance your expressions
+- 🎥 **Recording** - built-in recording and camera view
+- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
+- 🛠 **Hackable** - anything possible on a webpage
 
-最近在捣鼓前端AI方向，致力于前端开发提效。
+<br>
+<br>
 
+Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 <BarBottom  title="CW-FED">
   <Item text="github.com/steinwei">
@@ -33,10 +40,6 @@ layout: intro
     <carbon:link />
   </Item>
 </BarBottom>
-
-<!--
-89009
--->
 
 ---
 
@@ -76,31 +79,30 @@ layout: intro
 </BarBottom>
 
 ---
+layout: intro
+---
 
-# 个人评价
+## `<BarBottom />` component
 
-- 需要改善的
-  - 对业务熟悉程度不够：这会导致一些问题，比如涉及到边界条件的判断没到位，特殊场景下的判断把握不了等
-  - 性格不够活跃：主要是缺少比较骚的表情包，总体比较沉闷，喜欢搞自己的事情
-  - 跨部门交流能力比较薄弱：123
-  - 技术深度仍需提升：123
-  - 体育锻炼：123
-- 需要继续坚持的
-  - 沉淀前端文档：三个月以来已从0篇沉淀到了40篇前端文档，包括但不限于前端开发全流程梳理，前端提效工具说明文档沉淀，需求系分文档的沉淀等
-  - AI提效探索：距离ChatGPT4出来已经很长一段时间了，目前基本每天都在用，特别是涉及到不熟悉的方案设计，画流程图，技术选型，具体功能模块的时候，感觉就像有位P8大佬在指导你一样
+<br />
+<br />
 
-<BarBottom  title="CW-FED">
-  <Item text="github.com/steinwei">
-    <carbon:logo-github />
-  </Item>
-  <Item text="SteinWei">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="personal-site-steinw.com">
-    <carbon:link />
-  </Item>
-</BarBottom>
+<div class="grid grid-cols-2 gap-x-4">
+<div>
+This component displays a bar at the bottom of the slide. The component needs to be added to each slide where we want to display it.
 
+Receives a `title` prop that is the text displayed on the left.
+
+This component uses `slots` to add items on the right. Exist an `<Item />` component that receives a `text` prop and uses `slots` to add the icon/image.
+
+Exist a large [list of icon collections](https://icones.js.org/collection) available that you can use. These icons are imported automatically by _slidev_, you don't need to configure anything else to use them.
+
+</div>
+<div>
+
+### Slide example
+
+```markdown
 ---
 layout: intro
 ---
@@ -118,11 +120,90 @@ layout: intro
     <carbon:link />
   </Item>
 </BarBottom>
+```
+
+</div>
+</div>
+
+<BarBottom  title="CW-FED">
+  <Item text="github.com/steinwei">
+    <carbon:logo-github />
+  </Item>
+  <Item text="SteinWei">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="personal-site-steinw.com">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
+layout: intro
+---
 
+## `<BarBottom />` with custom icons/images
+
+<br />
+<br />
+
+<div class="grid grid-cols-2 gap-x-4">
+<div>
+
+You can use your own icons/images if you want.
+
+Only need to add an `<Item />` component and use `slots` features.
+
+Also, you can use [Windi CSS](https://windicss.org/) to add style to the icon, for example, adjust the width o height.
+
+</div>
+<div>
+
+### Slide example
+
+```markdown
+---
+layout: intro
+---
+
+# Content
+
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
+  </Item>
+</BarBottom>
+```
+
+</div>
+</div>
+
+<BarBottom  title="Slidev theme purplin">
+  <Item text="slidevjs/slidev">
+    <carbon:logo-github />
+  </Item>
+  <Item text="Slidevjs">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="sli.dev">
+    <img
+      src="https://d33wubrfki0l68.cloudfront.net/273aa82ec83b3e4357492a201fb68048af1c3e6a/8f657/logo.svg"
+      class="w-4"
+    />
+  </Item>
+</BarBottom>
+
+---
 layout: image-x
-image: '<https://user-images.githubusercontent.com/13499566/138951075-018e65d5-b5fe-4200-9ea7-34315b1764da.jpg>'
+image: 'https://user-images.githubusercontent.com/13499566/138951075-018e65d5-b5fe-4200-9ea7-34315b1764da.jpg'
 imageOrder: 1
 ---
 
@@ -145,9 +226,8 @@ image 600x600
 </BarBottom>
 
 ---
-
 layout: image-x
-image: '<https://user-images.githubusercontent.com/13499566/138950866-7d2addb2-fe3f-41f5-aab6-d35688516612.jpg>'
+image: 'https://user-images.githubusercontent.com/13499566/138950866-7d2addb2-fe3f-41f5-aab6-d35688516612.jpg'
 imageOrder: 2
 ---
 
@@ -170,13 +250,11 @@ image 1080x1920
 </BarBottom>
 
 ---
-
 layout: quote
 position: center
 ---
 
 # "layout: quote"
-
 position: center
 
 'position' variants: left (default), center, right
@@ -252,9 +330,8 @@ Hover on the bottom-left corner to see the navigation's controls panel
 </BarBottom>
 
 ---
-
 layout: image-right
-image: '<https://user-images.githubusercontent.com/13499566/138950614-52ec045b-aa93-4d52-91df-b782cc9c7143.jpg>'
+image: 'https://user-images.githubusercontent.com/13499566/138950614-52ec045b-aa93-4d52-91df-b782cc9c7143.jpg'
 ---
 
 # Code
@@ -289,7 +366,6 @@ function updateUser(id: number, update: Partial<User>) {
 </BarBottom>
 
 ---
-
 layout: center
 class: "text-center"
 ---
