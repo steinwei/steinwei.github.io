@@ -214,10 +214,8 @@ image 1080x1920
   <Item text="github.com/steinwei">
     <carbon:logo-github />
   </Item>
-  <Item text="SteinWei">
-    <carbon:logo-twitter />
-  </Item>
-  <Item text="personal-site-steinw.com">
+
+  <Item text="personal-site-steinw.vercel.app">
     <carbon:link />
   </Item>
 </BarBottom>
