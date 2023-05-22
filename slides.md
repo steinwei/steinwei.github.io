@@ -87,9 +87,6 @@ layout: intro
 
 # 前端开发流程规范化
 
-- 文档沉淀：三个月以来，输出了43篇文档沉淀到语雀中，涉及从需求确立到项目发版等的文档
-- 编码规范：编码引入JavaScript规范工具eslint来约束代码规范，使团队代码风格更加统一
-
 <BarBottom  title="CW-FED">
   <Item text="github.com/steinwei">
     <carbon:logo-github />
@@ -105,6 +102,8 @@ hideInToc: true
 ---
 
 # 文档沉淀
+
+三个月以来，输出了43篇文档沉淀到语雀中，涉及从需求确立到项目发版等的文档
 
 - **系分文档**：基于业务需求，每个需求对应一份系分文档；好处是，先跑一遍流程，然后再写代码会减少很多bug，也方便其他同事指出流程中的错误之处
 - **约定文档**：基于约定，包含一些排期表、git分支管理规范、转测规范、发版规范等
@@ -127,21 +126,7 @@ hideInToc: true
 
 # 制定编码规范
 
-<BarBottom  title="CW-FED">
-  <Item text="github.com/steinwei">
-    <carbon:logo-github />
-  </Item>
-  
-  <Item text="personal-site-steinw.vercel.app">
-    <carbon:link />
-  </Item>
-</BarBottom>
-
----
-hideInToc: true
----
-
-# 代码质量监控
+编码引入JavaScript规范工具eslint来约束代码规范，使团队代码风格更加统一
 
 <BarBottom  title="CW-FED">
   <Item text="github.com/steinwei">
@@ -158,8 +143,6 @@ layout: intro
 ---
 
 # 前端开发提效
-
-- 活动项目构建工具升级：使用vite替换webpack，项目打包构建时间从10s到后来的200ms
 - 活动项目脚手架模板定制：再也不用担心手动CV项目代码，之后又要删掉无关代码的问题啦
 - 业务组件库开发：持续抽取重复性高的组件整合到组件库当中，再也不用担心想复用组件又找不到代码啦
 - mock-server落地：再也不用担心页面数据需要等后台同学开发完才
@@ -181,6 +164,8 @@ hideInToc: true
 
 # 活动项目构建工具升级
 
+使用vite替换webpack，项目打包构建时间从10s到后来的200ms
+
 ### webpack和vite的构建时间比较
 
 | 次数 | 1（首次启动） | 2 | 3 | 4 |
@@ -190,18 +175,17 @@ hideInToc: true
 
 <br>
 
-- 冷启动：启动项目从10s到400ms
-- 热启动：每次ctrl+s的等待时间从6s到300ms，**极大提升了开发体验**
+### 分析
+
+冷启动时间：启动项目时间从10s到400ms
+
+热启动时间：每次ctrl+s的等待时间从6s到300ms，**极大提升了开发体验**
 
 ---
 layout: intro
 ---
 
 # 前端AI方向探索
-
-- ChatGPT-WEB落地：
-- AIGC研究：
-- 大量实践：
 
 <BarBottom  title="CW-FED">
   <Item text="github.com/steinwei">
@@ -213,6 +197,50 @@ layout: intro
   </Item>
 </BarBottom>
 
+---
+layout: image-x
+image: 'https://raw.githubusercontent.com/steinwei/Images/master/202305230255678.png'
+imageOrder: 2
+hideInToc: true
+---
+
+# ChatGPT-WEB落地
+
+imageOrder: 2
+
+image 1080x1920
+
+<BarBottom  title="CW-FED">
+  <Item text="github.com/steinwei">
+    <carbon:logo-github />
+  </Item>
+  <Item text="SteinWei">
+    <carbon:logo-twitter />
+  </Item>
+  <Item text="personal-site-steinw.com">
+    <carbon:link />
+  </Item>
+</BarBottom>
+
+---
+hideInToc: true
+---
+
+# AIGC探索
+
+<br>
+
+![123](https://raw.githubusercontent.com/steinwei/Images/master/202305230258060.png)
+
+<BarBottom  title="CW-FED">
+  <Item text="github.com/steinwei">
+    <carbon:logo-github />
+  </Item>
+  
+  <Item text="personal-site-steinw.vercel.app">
+    <carbon:link />
+  </Item>
+</BarBottom>
 
 ---
 
