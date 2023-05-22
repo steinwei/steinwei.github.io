@@ -265,6 +265,25 @@ hideInToc: true
 </BarBottom>
 
 ---
+
+# 未來展望
+
+- 减少低级错误出现频率
+- 多使用设计模式来写可复用的代码
+- 多发展自己的兴趣爱好，多接触些东西
+- 学习一些产品方面的知识
+
+<BarBottom  title="CW-FED">
+  <Item text="github.com/steinwei">
+    <carbon:logo-github />
+  </Item>
+  
+  <Item text="personal-site-steinw.vercel.app">
+    <carbon:link />
+  </Item>
+</BarBottom>
+
+---
 layout: image-right
 image: 'https://user-images.githubusercontent.com/13499566/138950614-52ec045b-aa93-4d52-91df-b782cc9c7143.jpg'
 ---
