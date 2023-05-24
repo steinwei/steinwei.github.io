@@ -83,13 +83,6 @@ hideInToc: true
 ---
 
 ---
-layout: center
-hideInToc: true
----
-
-<img src="/前端项目分支管理.svg" width="350" height="200" />
-
----
 layout: intro
 hideInToc: true
 ---
@@ -104,6 +97,8 @@ hideInToc: true
 
 使用vite替换webpack，项目打包构建时间从10s到后来的200ms
 <v-click>
+
+### vite和webpack构建时间对比
 
 | 次数 | 1（首次启动） | 2 | 3 | 4 |
 | --- | --- | --- | --- | --- |
@@ -155,8 +150,8 @@ hideInToc: true
 日常场景使用覆盖率达到80%以上，有效解决业务场景中遇到的各种问题。
 
 ---
-layout: iframe
-url: https://ciweinet.yuque.com/reorug/te3a5o/awnefki720ah5ri0
+layout: image
+image: /企业微信截图_20230524114928.png
 ---
 
 ---
@@ -192,6 +187,8 @@ url: https://www.stable-learn.com/zh/p4-gpt-sdw#prompts%E6%98%AF%E4%BB%80%E4%B9%
 hideInToc: true
 ---
 
+<!-- 充当角色+指令+上下文+规则+问题 -->
+
 ---
 hideInToc: true
 ---
@@ -217,7 +214,7 @@ hideInToc: true
 
 - 需要改善的
   - 对业务熟悉程度不够：多看看代码逻辑，多向前辈请教问题
-  - 性格不够活跃：主要INFJ-T人格，比较闷骚，打算多尝试做些事情，多和同事交流
+  - 性格不够活跃：比较慢热，闷骚，打算多尝试做些事情，多和同事交流
   - 技术深度仍需提升：学习更多服务端知识，补齐短板
   - 体育锻炼：提高身体素质，减少意外的生病几率
 - 需要继续坚持的
@@ -242,7 +239,6 @@ class: "text-center"
 ---
 
 # Thanks
-
 
 
 ---
